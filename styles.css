@@ -133,7 +133,7 @@ section {
     border-radius: 20px;
     min-width: 35vw;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .card > a {
