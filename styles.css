@@ -108,9 +108,22 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items:flex-start;
+}
 
+.projectsLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.projectsRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40vw;
 }
 
 .card {
@@ -120,6 +133,7 @@ section {
     border-radius: 20px;
     min-width: 35vw;
     text-align: center;
+    margin-top: 20px;
 }
 
 .card > a {
@@ -147,6 +161,7 @@ section {
     display: flex;
     height: 75vh;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .contact > h1 {
@@ -184,4 +199,63 @@ section {
     background-color: #8BA6A9;
 }
 
+.projectdiv {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
 
+.projectdiv > h1 {
+    text-align: center;
+}
+
+.projectdiv > a {
+    border-radius: 20px;
+    border: none;
+    align-self: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #B7B868;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.projectdiv > a:hover {
+    background-color: #CACC90;
+    color: #4F4D36;
+}
+
+.projectColumns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+
+.right > img {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.right > h3 {
+    color: white;
+    text-align: center;
+}
+
+.box > div > a {
+    padding: 20px;
+    margin: 20px;
+}
